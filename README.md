@@ -6,34 +6,34 @@
 <br>
 <p>The contents of this tutorial are the following:</p>
 <br>
-<li>
-  <ol>Drawing a Shape</ol>
-  <ol>Variables</ol>
-  <ol>Data Types</ol>
-  <ol>Working with Strings</ol>
-  <ol>Working with Numbers</ol>
-  <ol>Getting User Input</ol>
-  <ol>Building a Calculator</ol>
-  <ol>Building a Mad Lib</ol>
-  <ol>Arrays</ol>
-  <ol>Methods</ol>
-  <ol>Return Statements</ol>
-  <ol>If Statements</ol>
-  <ol>If Statements (Con't)</ol>
-  <ol>Building a Better Calculator</ol>
-  <ol>Switch Statements</ol>
-  <ol>While Loops</ol>
-  <ol>Building a Guessing Game</ol>
-  <ol>For Loops</ol>
-  <ol>Building an Exponent Method</ol>
-  <ol>2D Arrays</ol>
-  <ol>Comments</ol>
-  <ol>Exception Handling</ol>
-  <ol>Classes & Objects</ol>
-  <ol>Constructors</ol>
-  <ol>Object Methods</ol>
-  <ol>Getters & Setters</ol>
-  <ol>Static Class Attributes</ol>
-  <ol>Static Methods & Classes</ol>
-  <ol>Inheritance</ol>
-</li>
+<ol>
+  <li>Drawing a Shape</li>
+  <li>Variables</li>
+  <li>Data Types</li>
+  <li>Working with Strings</li>
+  <li>Working with Numbers</li>
+  <li>Getting User Input</li>
+  <li>Building a Calculator</li>
+  <li>Building a Mad Lib</li>
+  <li>Arrays</li>
+  <li>Methods</li>
+  <li>Return Statements</li>
+  <li>If Statements</li>
+  <li>If Statements (Con't)</li>
+  <li>Building a Better Calculator</oli>
+  <li>Switch Statements</li>
+  <li>While Loops</li>
+  <li>Building a Guessing Game</oli>
+  <li>For Loops</li>
+  <li>Building an Exponent Method</li>
+  <li>2D Arrays</li>
+  <li>Comments</li>
+  <li>Exception Handling</li>
+  <li>Classes & Objects</li>
+  <li>Constructors</li>
+  <li>Object Methods</li>
+  <li>Getters & Setters</li>
+  <li>Static Class Attributes</li>
+  <li>Static Methods & Classes</li>
+  <li>Inheritance</li>
+</ol>
