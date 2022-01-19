@@ -6,7 +6,7 @@
 <br>
 <p>The contents of this tutorial are the following:</p>
 <br>
-<ol>
+<ul>
   <li>Drawing a Shape</li>
   <li>Variables</li>
   <li>Data Types</li>
@@ -36,4 +36,4 @@
   <li>Static Class Attributes</li>
   <li>Static Methods & Classes</li>
   <li>Inheritance</li>
-</ol>
+</ul>
