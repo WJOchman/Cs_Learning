@@ -35,7 +35,7 @@ namespace Giraffe {
 }
 
 // Data Types
-namespace  Giraffe {
+namespace Giraffe {
     class Program {
         static void Main(string[] args) {
             string phrase = "Giraffe Academy";
@@ -52,3 +52,17 @@ namespace  Giraffe {
 }
 
 // Working With Strings 
+namespace Giraffe {
+    class Program {
+        static void Main(string[] args) {
+            string phrase = "Giraffe Academy" + "is cool!";
+            Console.WriteLine(phrase.ToUpper()); // .ToUpper() is a method which capitalises a string. 
+            Console.WriteLine(phrase.ToLower()); // .ToLower() is a method which minimises a string. 
+            Console.WriteLine(phrase.Contains("Academy")); // .Contains() is a method which produces a true or false statement if the string contains the phrase "Academy"
+            Console.WriteLine(phrase[0]); // This method presents the character at index position 0. Which here is G.
+            
+            
+            Console.ReadLine();
+        }
+    }
+}
