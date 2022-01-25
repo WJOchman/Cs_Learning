@@ -66,3 +66,20 @@ namespace Giraffe {
         }
     }
 }
+
+// Working With Numbers
+namespace Giraffe {
+    class Program {
+        static void Main(string[] args) {
+            Console.WriteLine();
+                // Go over this section again. 
+                // Write down the functions. 
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+
+
