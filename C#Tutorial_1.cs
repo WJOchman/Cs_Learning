@@ -71,9 +71,20 @@ namespace Giraffe {
 namespace Giraffe {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine();
-                // Go over this section again. 
-                // Write down the functions. 
+            
+            int num = 6;
+            num++;
+            // Or num--
+            Console.WriteLine(num);
+                
+            Console.WriteLine( Math.Abs(-40) );
+            Console.WriteLine( Math.Pow(3, 2));
+            Console.WriteLine( Math.Sqrt(36) );
+            Console.WriteLine( Math.Max(4, 20) );
+            Console.WriteLine( Math.Min(4, 90) );
+            Console.WriteLine( Math.Round(4.6) );
+            Console.WriteLine( Math. );
+
             Console.ReadLine();
         }
     }
