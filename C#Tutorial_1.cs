@@ -567,8 +567,33 @@ namespace Giraffe {
     class Program {
         static void Main(string[] args) {
 
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
 
             Console.ReadLine();
+        }
+    }
+
+    class Movie {
+        public string title;
+        public string director; 
+        private string rating; 
+
+        public Movie(string aTitle, string aDirector, string aRating) {
+            title = aTitle;
+            director = aDirector;
+            Rating = aRating;
+        }
+
+        public string Rating {
+            get { return rating; }
+            set { 
+                if(value == "G" || value == "PG" || value == "PG-13" || value == "R" || value == "NR") {
+                    rating = value;
+                } else {
+                    rating = "NR";
+                }
+            }
         }
     }
 }
@@ -599,7 +624,6 @@ namespace Giraffe {
 namespace Giraffe {
     class Program {
         static void Main(string[] args) {
-
 
             Console.ReadLine();
         }
