@@ -636,6 +636,7 @@ namespace Giraffe {
             Console.ReadLine();
         }
     }
+
     static class UsefulTools {
         public static void SayHi(string name) {
             Console.WriteLine("Hello " + name);
@@ -647,8 +648,32 @@ namespace Giraffe {
 namespace Giraffe {
     class Program {
         static void Main(string[] args) {
+            Chef chef = new Chef();
+            chef.MakeChicken();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken(); 
 
             Console.ReadLine();
+        }
+    }
+    class Chef {
+        public void MakeChicken() {
+            Console.WriteLine("The Chef makes chicken");
+        }
+        public void MakeSalad() {
+            Console.WriteLine("The Chef makes salad");
+        }
+        public virtual void MakeSpecialDish() {
+            Console.WriteLine("The Chef makes BBQ ribs");
+        }
+    }
+    class ItalianChef : Chef {
+        public void MakePasta() {
+            Console.Write("The Italian Chef is making pasta");
+        }
+        public override void MakeSpecialDish() {
+            Console.WriteLine("The Chef makes Lasagne");
         }
     }
 }
